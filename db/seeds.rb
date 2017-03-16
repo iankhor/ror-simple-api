@@ -13,3 +13,5 @@
         desc: "This is a random number : #{rand(1..672)*i}"
     )
 end
+
+User.create!(email: 'admin@admin.com' , password: 'admin' , password_confirmation: 'admin')
