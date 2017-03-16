@@ -24,5 +24,11 @@ Steps
 ![Get post with jwt](https://github.com/iankhor/files/blob/master/ror-simple-api/ror-simple-api%20get%20post.png)
 
 
-Using postman, send a get request to  
-http://ror-simple-api.herokuapp.com/posts
+Demo API 
+========
+The following end on a deployed herokuapp
+
+End point | Description 
+---------- | -----------
+http://ror-simple-api.herokuapp.com/authenticate | get jwt token
+http://ror-simple-api.herokuapp.com/posts | get all posts
